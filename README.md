@@ -1,2 +1,3 @@
-# sorting_algorithms
+# Sorting Algorithms
+
 ALX sorting algorithms project
