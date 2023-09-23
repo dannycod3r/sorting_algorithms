@@ -26,6 +26,7 @@ void print_list(const listint_t *list);
 
 /*project helper functions*/
 void selection_sort(int *array, size_t size);
-
+void quick_sort(int *array, size_t size);
+size_t lomuto(int *array, size_t low, size_t high);
 
 #endif
