@@ -1,6 +1,9 @@
 #ifndef _SORT_H_
 #define _SORT_H_
 
+/*size_t*/
+#include <stddef.h>
+
 /*predefined data structure*/
 /**
  * struct listint_s - Doubly linked list node
@@ -22,7 +25,7 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
 /*project helper functions*/
-
+void selection_sort(int *array, size_t size);
 
 
 #endif
